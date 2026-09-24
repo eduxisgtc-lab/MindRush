@@ -9,6 +9,8 @@
 <br>
 *HTML
 <br>
-Também foi a primeira vez que mecho com efeitos sonoros nos meus projetos, é mais fácil do que eu pensava, e vale a pena a imersão!!!</p>
+<p></p>Também foi a primeira vez em que mecho com efeitos sonoros nos meus projetos, é mais fácil do que eu pensava, e vale a pena pela imerção do projeto !!!</p>
 <br>
-<p>Realmente espero que gostem porque eu gostei e muito ksks.</p>
+<p> Eu realmente espero que gostem, porque eu gostei e muito ksks.</p>
+
+<a> https://eduxisgtc-lab.github.io/MindRush/</a>
