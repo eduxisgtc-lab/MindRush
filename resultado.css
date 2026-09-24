@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+    background-color: #1A0830;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.barra {
+    width: 329px;
+    height: 10px;
+    background-color: #4B0082;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.proguresso {
+    width: 100%;
+    height: 100%;
+    background-color: #C026FF;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+    
+.barra2 {
+    width: 329px;
+    height: 20px;
+    background-color: #4B0082;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progresso2 {
+    width: 0%;
+    height: 100%;
+    background-color: #C026FF;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+.resultado{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    height: auto;
+    width: auto;
+}
+
+.linkbotao{
+    padding: 10px 20px;
+    background-color: #4B0082;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.linkbotao:hover{
+    background-color: #6A0DAD;
+}
+
+.linkbotao:active{
+    background-color: #ff00ff;
+}
+
+
+
+

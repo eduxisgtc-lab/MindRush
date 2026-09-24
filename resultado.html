@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resultado.css">
+    <title>Resultados</title>
+
+</head>
+
+<body>
+
+    <div class="resultado">
+
+        <div class="barra">
+
+            <div class="proguresso">
+
+                <div class="barra-preenchida"></div>
+
+            </div>
+
+        </div>
+
+        <h1>MindRush</h1>
+
+        <h2>Quiz Finalizado</h2>
+
+        <h3 id="pontuacao">0 Pontos</h3>
+
+        <p id="acertos">Você Acertou 0/10</p>
+
+        <div class="barra2">
+
+            <div class="progresso2">
+
+                <div class="barra-preenchida2"></div>
+
+            </div>
+
+        </div>
+
+
+        <a href="pergunta1.html" onclick="sessionStorage.removeItem('pontos')" class="linkbotao">Tentar novamente</a>
+
+        <a href="index.html" onclick="sessionStorage.removeItem('pontos')" class="linkbotao">Voltar ao início</a>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

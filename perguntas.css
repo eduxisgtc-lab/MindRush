@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+    background-color: #1A0830;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.barra {
+    width: 329px;
+    height: 10px;
+    background-color: #4B0082;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progresso {
+    width: 10%;
+    height: 100%;
+    background-color: #C026FF;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+    
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    height: auto;
+    width: auto;
+}
+
+.pergunta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: white;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.botao{
+    display: flex;
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 160px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #6A0DAD;
+}
+
+.botao:active{
+    background-color: #ff00ff;
+}
+
+.susto {
+    width: 60%;
+    max-width: 650px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: none;
+}
+
+.susto img {    
+    width: 100%;
+    height: auto;
+    display: block;
+}
